@@ -1,0 +1,32 @@
+Style python :
+
+
+
+\033[32m'...Texte...'\033[0m : Texte en vert
+
+
+\033[36m\033[1m\033[4m...Texte...\033[0m : texte en gras surligner
+
+
+\033[33m...Texte... \033[1m{...nom_attribut...}\033[0m\033[33m : texte en jaune
+
+\033[4m\033[1m...Texte...\033[0m \033[1m:\033[0m : texte surligner
+
+\033[31m\033[1m...Texte...\033[0m : text en rouge
+
+\033[32m\033[1m...Texte...\033[0m : texte avec fond vert
+
+\033[4m...Texte... \033[0m:\033[32m : texte surligner
+
+\033[33m\033[4m...Texte... {...nom_attribut...} (tapez '1' (OUI) ou '2' (NON) \033[0m\033[33m :\033[0m : texte en jaune surligner
+
+\033[41m...Texte...\033[0m : texte avec fond rouge
+
+\033[41m\033[1m...Texte...\033[0m : texte fond rouge
+
+\033[31m...Texte... '{...nom_attribut...}' n'existe pas ! "
+                    f"...Texte...\033[0m\n\n\033[41m...Texte...\n\033[0m : texte en jaune
+
+\033[42m\033[1m\033[1m...Texte...\033[0m : texte avec fond vert
+
+\033[1m\033[4m\033[36m...Texte...\033[0m \033[1m:\033[0m : texte surligner en bleu
